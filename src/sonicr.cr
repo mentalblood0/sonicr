@@ -51,7 +51,7 @@ module Sonicr
       text.sub '"', "\\\""
     end
 
-    def push(collection : String, bucket : String, object : String, text : String, lang : String?)
+    def push(collection : String, bucket : String, object : String, text : String, lang : String? = nil)
       query = String.build do |s|
         s << "PUSH #{collection} #{bucket} #{object} \"#{escape text}\""
         s << " LANG(#{lang})" if lang
