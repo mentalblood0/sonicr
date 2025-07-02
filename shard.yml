@@ -1,0 +1,13 @@
+name: sonicr
+version: 0.1.0
+
+authors:
+  - necheporenko_s_iu <necheporenko_s_iu@goznak.ru>
+
+targets:
+  sonicr:
+    main: src/sonicr.cr
+
+crystal: '>= 1.15.1'
+
+license: MIT
