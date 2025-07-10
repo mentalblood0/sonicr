@@ -48,7 +48,7 @@ module Sonicr
     end
 
     def escape(text : String)
-      text.sub '"', "\\\""
+      text.gsub '"', "\\\""
     end
 
     def push(collection : String, bucket : String, object : String, text : String, lang : String? = nil)
