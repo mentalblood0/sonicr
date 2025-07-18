@@ -1,4 +1,4 @@
-# sonicr
+# 🦔 sonicr
 
 [Sonic](https://github.com/valeriansaliou/sonic) interface for Crystal
 
